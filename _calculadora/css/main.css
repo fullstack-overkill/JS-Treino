@@ -1,0 +1,139 @@
+
+/* Import de fontes */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+
+/* Classes css */
+body{
+    background-color: #ececec;
+}
+
+.Background{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.calq{
+    width: 110px;
+    background-color: #222831;
+    border-radius: 4px;
+    padding: 4px;
+}
+
+.calq-body{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.body-display{
+    margin-bottom: 3px;
+    display: flex;
+    flex: 1;
+}
+
+.body-display input{
+    width: 100%;
+    border: none;
+}
+
+.body-action{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+}
+
+.action-numbers{
+    display: flex;
+    flex: 1;
+    height: 100%;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.line{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+}
+
+.number{
+    user-select: none;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    color: #FFFFFF;
+    background-color: #30475e;
+    border-radius: 1px;
+    margin: 2px;
+}
+
+.action-type{
+    user-select: none;
+    cursor: pointer;
+    flex: 0.2;
+    display: flex;
+    flex-direction: column;
+    background-attachment: red;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.type{
+    user-select: none;
+    cursor: pointer;
+    width: 13px;
+    height: 35.500px;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    color: #FFFFFF;;
+    background-color: #f2a365;
+    border-radius: 1px;
+    margin: 2px;
+}
+
+.result{
+    cursor: pointer;
+    user-select: none;
+    display: flex;
+    flex: 1;
+    color: #FFFFFF;
+    background-color: #f2a365;
+    margin: 2px;
+    border-radius: 1px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+/* hover */
+
+.number:hover{
+    -webkit-box-shadow:inset 0px 0px 0px 1px #ececec;
+    -moz-box-shadow:inset 0px 0px 0px 1px #ececec;
+    box-shadow:inset 0px 0px 0px 1px #ececec;
+}
+
+.type:hover{
+    -webkit-box-shadow:inset 0px 0px 0px 1px #ececec;
+    -moz-box-shadow:inset 0px 0px 0px 1px #ececec;
+    box-shadow:inset 0px 0px 0px 1px #ececec;
+}
+
+.result:hover{
+    -webkit-box-shadow:inset 0px 0px 0px 1px #ececec;
+    -moz-box-shadow:inset 0px 0px 0px 1px #ececec;
+    box-shadow:inset 0px 0px 0px 1px #ececec;
+}
