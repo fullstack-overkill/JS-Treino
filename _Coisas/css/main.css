@@ -1,0 +1,14 @@
+/* Meu arquivo principal css */
+html,body{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+#galeria{
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    height: 600px;
+    overflow: auto;
+}
