@@ -1,1 +1,112 @@
 /* Arquivo principal para css */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+.menu-superior{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 70px;
+    background-color: #1c425e;
+    padding-left: 25px;
+    padding-right: 25px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.caixa{
+    display: flex;
+}
+
+.img-caixa{
+    width: 55px;
+    height: 55px;
+}
+
+.lista-paginas{
+    display: flex;
+}
+
+.lista{
+    display: flex;
+    flex-direction: row;
+}
+
+.paginas{
+    color: #FFFFFF;
+    margin-right: 13px;
+    font-size: 23px;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', sans-serif;
+    user-select: none;
+    cursor: pointer;
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    height: 60vh;
+    background-color: #ededed;
+    padding: 26px;
+    align-content: center;
+    align-items: center;
+}
+
+.parallax{
+  /* The image used */
+  background-image: url('../img/foto.jpg');
+
+  /* Full height */
+  height: 100vh; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+/* Reutilizavel */
+
+.titulo{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+    width: 100%;
+}
+
+.sub-titulo{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 3px;
+    line-height: 30px;
+}
+
+.sub-img{
+    width: 35%;
+    height: auto;
+    margin: 8px;
+}
+
+.cta{
+    user-select: none;
+    color: #FFFFFF;
+    display: flex;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.box{
+    background-color: #1c425e;
+    border-radius: 4px;
+    padding: 25px;
+}
