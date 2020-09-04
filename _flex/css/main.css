@@ -1,0 +1,66 @@
+/* Meu arquivo principal css */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+body{
+    min-width: 100vw;
+    min-height: 100vh;
+    padding: 0;
+    margin: 0px;
+    background: #ffffff;    
+    display: flex;
+    flex-direction: column;
+}
+
+.card-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    width: 100%;
+    height: 100%;
+    background-color: #f7f7f7;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 350px;
+    min-height: 500px;
+    padding: 10px;
+    background-color: #ffffff;
+    box-shadow: -1px 2px 3px rgba(0, 0, 0, 0.45);
+}
+
+.card-title{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.card-content{
+    flex: 1;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.btn-exemple{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 160px;
+    height: 30px;
+    background-color: #009122;
+    border-radius: 5px;
+    color: #ffffff;
+    user-select: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.btn-exemple:hover{
+    background-color: #00d131;
+}

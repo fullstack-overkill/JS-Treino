@@ -5,6 +5,13 @@
   box-sizing: border-box;
 }
 
+.dasd{
+  font-size: 15px; /*tamanho da fonte*/
+  font-weight: 500; /* Peso da fonte */
+  width: 100%; /* Seja a unica coisa na linha */
+  color: red; /* Cor do texto */
+}
+
 /* Remove default padding */
 ul[class],
 ol[class] {
